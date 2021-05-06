@@ -246,7 +246,8 @@ align-items: center;
     font-weight: bold;
 }
 .contenedor-campos {
-
+    display: flex;
+    flex-direction: column;
 }
 .campo {
     margin-bottom: 1rem;
@@ -256,7 +257,7 @@ align-items: center;
     font-size: 1.5rem;
     color: var(--white);
     font-weight: bold;
-    margin-bottom: .5rem;
+    margin-bottom: 1rem;
     display: block;
 
 }
@@ -267,6 +268,10 @@ align-items: center;
     padding: 1rem;
     border-radius: .5rem;
 }
+textarea {
+    resize: none;
+}
+
 
 
 /* FOOTER */
